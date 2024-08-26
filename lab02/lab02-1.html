@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>FitNow</title>
+    </head>
+    <body>
+        <h1>Dicas de como aprimorar o seu treino na academia </h1> 
+        <p>A academia com certeza atua na saude de nosso corpo, mas sem a alimentacao adequada nunca havera resultados concretos </p>
+        <p>Aqui, ajudaremos a como ingerir os alimentos certos na hora certa, tendo como referencia um plano de treino desenvolvido pela FitNow, a nova academia que tem como objetivo ajudar em seu desempemho e a torna-lo mais saudavel!
+        
+            <th> <div> HORARIOS RECOMENDADOS PARA TREINO:</th>
+            
+            <tr>
+                <td><div>MANHA</td>
+                <td>entre 7 as 10 horas</td>
+            </tr>
+            <tr>
+                    <td><div>TARDE</td>
+                    <td>entre 15 as 18 horas</td>
+            </tr>
+            <tr>
+                <td><div>NOITE</td>
+                <td>entre 19 as 21 horas</td>
+            </tr>
+        </table>
+    </body>
+    <p>Alimentos apropriados para o treino:</p>
+    <ul>
+        <li> Banana</li>
+        <li> Whey Protein</li>
+        <li> Yakult</li>
+    </ul>
+    <p> Vale ressaltar que esses alimentos podem ser ingeridos em apenas dois momentos:</p>
+    <ol>
+        <li> 1 hora antes de seu treino</li>
+        <li> 30 minutos no maximo depois de seu treino</li>
+    </ol>
+    <p> Aqui vai um video patrocinado pela nossa academia que vale a pena verificar para dar assistencia nesse processo!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uD46H2HiSMw?si=6A7hGSmZ760mzbaC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="container">
+        <h2>Gráfico em Canvas</h2>
+        <canvas id="meuCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+        <script>
+            var c = document.getElementById("meuCanvas");
+            var ctx = c.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(20, 20, 150, 75);
+        </script>
+    </div>
+    <p> Caso tenham mais duvidas e/ou interesse, preencham alguns de seus dados abaixo que entraremos em contato com voce para uma ajuda mais detalhada!</p>
+    <form>
+        <fieldset>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" />
+              </div>
+              <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" />
+              </div>
+              <div>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg"></textarea>
+                <input type="submit">
+              </div>
+        </fieldset>
+      </form>
