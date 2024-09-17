@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Quantas títulos mundiais o piloto Lewis Hamilton?",
+        question: "Quantas títulos mundiais tem o piloto Lewis Hamilton?",
         answers: ["4", "5", "6", "7"],
         correctAnswer: 3
     },
@@ -12,9 +12,9 @@ const questions = [
     {
         question: "Qual a nacionaloidade do piloto Max Verstappen?",
         answers: [
-            "Alemão",
+            "Alemã",
             "Belga",
-            "Holandês",
+            "Holandesa",
             "Luxemburguesa"
         ],
         correctAnswer: 2
@@ -63,7 +63,7 @@ function submitAnswers() {
             score++;
         }
     });
-    document.getElementById('result').innerHTML = `You scored ${score} out of ${questions.length}`;
+    document.getElementById('result').innerHTML = `Você acertou ${score} de ${questions.length}`;
 }
 
 window.onload = loadQuestions;
